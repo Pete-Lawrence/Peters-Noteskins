@@ -15,9 +15,12 @@ Again, noteskins in here I believe are complete and am unlikely to work on them 
 **SM5**<br>
 Works with StepMania 5 and Etterna.
 SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**SM5\Completed**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.
+
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Legacy**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Very old noteskins I no longer think about or would consider myself using.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Placing them here for archiving reasons mostly or if someone's actually into one of my older works.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\WIP**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinish. Am I planning on finishing them? At some point maybe lmao.
+&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinished. Am I planning on finishing them? At some point maybe lmao.
