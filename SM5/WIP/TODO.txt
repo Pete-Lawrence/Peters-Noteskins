@@ -1,5 +1,5 @@
 # Peters-DDR-Note
-The goal of this noteskins is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
+The goal of this noteskin is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
 
 Before the song starts, the receptor arrows need to show their Wait graphic.
 
