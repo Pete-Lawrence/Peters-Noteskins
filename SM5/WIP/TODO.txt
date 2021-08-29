@@ -1,0 +1,9 @@
+# Peters-DDR-Note
+The goal of this noteskins is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
+
+Before the song starts, the receptor arrows need to show their Wait graphic.
+
+When an arrow is stepped on, the receptor needs to play this command regardless of what judgement is recieved if any
+<code>function(self):zoom(0.9):sleep(2/60):linear(4/60):zoom(2.0)</code>
+
+Shock Arrows could be added too I guess.
