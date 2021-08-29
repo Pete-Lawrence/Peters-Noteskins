@@ -1,5 +1,6 @@
 # Peters-Noteskins
 Peter's noteskins for StepMania.
+(TODO eventually this read-me will have a list of all my noteskins including image previews)
 
 All my noteskins are public domain under the Unlicense. In simple terms, I do not give *half a flying fuck* about how my noteskins are used, shared, modified, sold as merchandise, with or without credit. I could not care less. Anyone is free to do whatever with them as long as they remain in the public domain.
 
