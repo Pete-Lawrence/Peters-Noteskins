@@ -1,6 +1,6 @@
 # Peters-Noteskins
-Peter's noteskins for StepMania.
-(TODO eventually this read-me will have a list of all my noteskins including image previews)
+Peter's noteskins for StepMania. (also Simply Love fonts & judgements and SMX gifs I made).
+(TODO """eventually""" this read-me will have a list of all my noteskins including image previews)
 
 All my noteskins are public domain under the Unlicense. In simple terms, I do not give *half a flying fuck* about how my noteskins are used, shared, modified, sold as merchandise, with or without credit. I could not care less. Anyone is free to do whatever with them as long as they remain in the public domain.
 
@@ -23,5 +23,11 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Very old noteskins I no longer think about or would consider myself using.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Placing them here for archiving reasons mostly or if someone's actually into one of my older works.
 
+&nbsp;&nbsp;&nbsp;&nbsp;**SM5\Simply-Love-Assets**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
+
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\WIP**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinished. Am I planning on finishing them? At some point maybe lmao.
+
+**SMX-gifs**<br>
+GIF files I made for the StepManiaX dance platform.
