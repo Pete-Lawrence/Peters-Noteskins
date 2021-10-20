@@ -17,7 +17,9 @@ Again, noteskins in here I believe are complete and am unlikely to work on them 
 Works with StepMania 5 and Etterna.
 SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Completed**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.
+&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.<br><br>
+
+*&nbsp;&nbsp;&nbsp;&nbsp;Something I very commonly do is add optional alternative textures inside my noteskins called something like 'Tap Note parts_DevCel (Rename Me To Activate).png'. To activate, you'd have to rename or delete the existing 'Tap Notes parts.png', I personally rename to 'Tap Notes parts_original.png'. And then rename 'Tap Note parts_DevCel (Rename Me To Activate).png' to 'Tap Notes parts.png'. This way you'll get to activate an alternative look for that noteskin.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Legacy**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Very old noteskins I no longer think about or would consider myself using.<br>
