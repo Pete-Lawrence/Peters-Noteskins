@@ -18,12 +18,22 @@ Works with StepMania 5 and Etterna.
 SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Completed**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.<br>
-
+| - | - | - |
+| :---: | :---: | :---: |
+| CF_CHROME<br> ![CF_CHROME](https://pete-lawrence.github.io/noteskin-renders/CF_CHROME.gif) | CF_CHROMECEL<br> ![CF_CHROMECEL](https://pete-lawrence.github.io/noteskin-renders/CF_CHROMECEL.gif) | PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif) |
+ | CF_VIBRANT<br> ![CF_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANT.gif) | CF_VIBRANTCEL<br> ![CF_VIBRANTCEL](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTCEL.gif) | Peters-DDR-Note<br> ![Peters-DDR-Note](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Note.gif) |
+ | PETERS_METAL<br> ![PETERS_METAL](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL.gif) | PETERS_CEL<br> ![PETERS_CEL](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL.gif) |  Peters-DDR-Rainbow<br> ![Peters-DDR-Rainbow](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Rainbow.gif) |
+ | PETERS_METAL_VIBRANT<br> ![PETERS_METAL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL_VIBRANT.gif) | PETERS_CEL_VIBRANT<br> ![PETERS_CEL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL_VIBRANT.gif) |  Peters-DDR-Vivid<br> ![Peters-DDR-Vivid](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Vivid.gif) | 
+ | DivideByPeter<br> ![DivideByPeter](https://pete-lawrence.github.io/noteskin-renders/DivideByPeter.png) | PeterFunkin<br> ![PeterFunkin](https://pete-lawrence.github.io/noteskin-renders/PeterFunkin.png) | - |
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Legacy**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Very old noteskins I no longer think about or would consider myself using.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Placing them here for archiving reasons mostly or if someone's actually into one of my older works.
+| - | - | - |
+| :---: | :---: | :---: |
+| Peter-Revolution<br> ![Peter-Revolution](https://pete-lawrence.github.io/noteskin-renders/Peter-Revolution.gif) | Peters-Ionic<br> ![Peters-Ionic](https://pete-lawrence.github.io/noteskin-renders/Peters-Ionic.gif) | Peter-Sphere<br> ![Peter-Sphere](https://pete-lawrence.github.io/noteskin-renders/Peter-Sphere.png) | 
+| Peters-Shadow-DDRLike<br> ![Peters-Shadow-DDRLike](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-DDRLike.gif) | Peters-Shadow-Scalable-Cel<br> ![Peters-Shadow-Scalable-Cel](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Cel.gif) | Peters-Shadow-Scalable-Metal<br> ![Peters-Shadow-Scalable-Metal](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Metal.gif) | 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Simply-Love-Assets**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
@@ -33,26 +43,3 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 
 **\SMX-gifs**<br>
 GIF files I made for the StepManiaX dance platform.
-
-**Big Ass List of my Noteskins**<br>
-SM5\Completed\CF_CHROME<br> ![CF_CHROME](https://pete-lawrence.github.io/noteskin-renders/CF_CHROME.gif)<br><br>
-SM5\Completed\CF_CHROMECEL<br> ![CF_CHROMECEL](https://pete-lawrence.github.io/noteskin-renders/CF_CHROMECEL.gif)<br><br>
-SM5\Completed\CF_VIBRANT<br> ![CF_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANT.gif)<br><br>
-SM5\Completed\CF_VIBRANTCEL<br> ![CF_VIBRANTCEL](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTCEL.gif)<br><br>
-SM5\Completed\DivideByPeter<br> ![DivideByPeter](https://pete-lawrence.github.io/noteskin-renders/DivideByPeter.png)<br><br>
-SM5\Completed\PeterFunkin<br> ![PeterFunkin](https://pete-lawrence.github.io/noteskin-renders/PeterFunkin.png)<br><br>
-SM5\Completed\PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif)<br><br>
-SM5\Completed\PETERS_CEL<br> ![PETERS_CEL](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL.gif)<br><br>
-SM5\Completed\PETERS_CEL_VIBRANT<br> ![PETERS_CEL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL_VIBRANT.gif)<br><br>
-SM5\Completed\PETERS_METAL<br> ![PETERS_METAL](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL.gif)<br><br>
-SM5\Completed\PETERS_METAL_VIBRANT<br> ![PETERS_METAL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL_VIBRANT.gif)<br><br>
-SM5\Completed\Peters-DDR-Note<br> ![Peters-DDR-Note](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Note.gif)<br><br>
-SM5\Completed\Peters-DDR-Rainbow<br> ![Peters-DDR-Rainbow](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Rainbow.gif)<br><br>
-SM5\Completed\Peters-DDR-Vivid<br> ![Peters-DDR-Vivid](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Vivid.gif)<br><br>
-
-\SM5\Legacy\Peter-Revolution<br> ![Peter-Revolution](https://pete-lawrence.github.io/noteskin-renders/Peter-Revolution.gif)<br><br>
-\SM5\Legacy\Peters-Ionic<br> ![Peters-Ionic](https://pete-lawrence.github.io/noteskin-renders/Peters-Ionic.gif)<br><br>
-\SM5\Legacy\Peter-Sphere<br> ![Peter-Sphere](https://pete-lawrence.github.io/noteskin-renders/Peter-Sphere.png)<br><br>
-\SM5\Legacy\Peters-Shadow-DDRLike<br> ![Peters-Shadow-DDRLike](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-DDRLike.gif)<br><br>
-\SM5\Legacy\Peters-Shadow-Scalable-Cel<br> ![Peters-Shadow-Scalable-Cel](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Cel.gif)<br><br>
-\SM5\Legacy\Peters-Shadow-Scalable-Metal<br> ![Peters-Shadow-Scalable-Metal](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Metal.gif)<br><br>
