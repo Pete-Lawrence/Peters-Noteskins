@@ -18,12 +18,13 @@ Works with StepMania 5 and Etterna.
 SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Completed**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.<br>
-| - | - | - | - |
-| :---: | :---: | :---: | :---: |
-| CF_CHROME<br> ![CF_CHROME](https://pete-lawrence.github.io/noteskin-renders/CF_CHROME.gif) | CF_CHROMECEL<br> ![CF_CHROMECEL](https://pete-lawrence.github.io/noteskin-renders/CF_CHROMECEL.gif) | CF_VIBRANT<br> ![CF_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANT.gif) | CF_VIBRANTCEL<br> ![CF_VIBRANTCEL](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTCEL.gif) | 
-| PETERS_METAL<br> ![PETERS_METAL](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL.gif) | PETERS_CEL<br> ![PETERS_CEL](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL.gif) | PETERS_METAL_VIBRANT<br> ![PETERS_METAL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL_VIBRANT.gif) | PETERS_CEL_VIBRANT<br> ![PETERS_CEL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL_VIBRANT.gif) | 
-| PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif) | Peters-DDR-Note<br> ![Peters-DDR-Note](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Note.gif) | Peters-DDR-Rainbow<br> ![Peters-DDR-Rainbow](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Rainbow.gif) | Peters-DDR-Vivid<br> ![Peters-DDR-Vivid](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Vivid.gif) | 
-| DivideByPeter<br> ![DivideByPeter](https://pete-lawrence.github.io/noteskin-renders/DivideByPeter.png) | PeterFunkin<br> ![PeterFunkin](https://pete-lawrence.github.io/noteskin-renders/PeterFunkin.png) | - | - | 
+| - | - | - |
+| :---: | :---: | :---: |
+| CF_CHROME<br> ![CF_CHROME](https://pete-lawrence.github.io/noteskin-renders/CF_CHROME.gif) | CF_CHROMECEL<br> ![CF_CHROMECEL](https://pete-lawrence.github.io/noteskin-renders/CF_CHROMECEL.gif) | PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif) |
+ | CF_VIBRANT<br> ![CF_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANT.gif) | CF_VIBRANTCEL<br> ![CF_VIBRANTCEL](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTCEL.gif) | Peters-DDR-Note<br> ![Peters-DDR-Note](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Note.gif) |
+ | PETERS_METAL<br> ![PETERS_METAL](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL.gif) | PETERS_CEL<br> ![PETERS_CEL](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL.gif) |  Peters-DDR-Rainbow<br> ![Peters-DDR-Rainbow](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Rainbow.gif) |
+ | PETERS_METAL_VIBRANT<br> ![PETERS_METAL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL_VIBRANT.gif) | PETERS_CEL_VIBRANT<br> ![PETERS_CEL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL_VIBRANT.gif) |  Peters-DDR-Vivid<br> ![Peters-DDR-Vivid](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Vivid.gif) | 
+ | DivideByPeter<br> ![DivideByPeter](https://pete-lawrence.github.io/noteskin-renders/DivideByPeter.png) | PeterFunkin<br> ![PeterFunkin](https://pete-lawrence.github.io/noteskin-renders/PeterFunkin.png) | - |
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Legacy**<br>
