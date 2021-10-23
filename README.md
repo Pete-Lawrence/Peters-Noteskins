@@ -5,6 +5,10 @@ All my noteskins are public domain under the Unlicense. In simple terms, I do no
 
 *Something I very commonly do is add optional alternative textures inside my noteskins called something like __'Tap Note parts_DevCel (Rename Me To Activate).png'__. To activate, you'd have to rename or delete the existing __'Tap Notes parts.png'__, I personally rename to __'Tap Notes parts_original.png'__. And then rename __'Tap Note parts_DevCel (Rename Me To Activate).png'__ to __'Tap Notes parts.png'.__ This way you'll get to activate an alternative look for that noteskin.*
 
+**\Livestream-Assets**<br>
+To make livestreams more beginner-friendly add ones of these to your stream.
+If your PC is powerful enough, try using an animated one!
+
 **\Open-ITG**<br>
 works with Stepmania 3.95 and Open-ITG
 You'll find mostly just legacy noteskins in here that I no longer work on.
