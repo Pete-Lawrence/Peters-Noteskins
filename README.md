@@ -1,13 +1,8 @@
-# Peters-Noteskins
+# [Pete-Lawrence.github.io](https://pete-lawrence.github.io)
+# [Peters-Noteskins](https://github.com/Pete-Lawrence/Peters-Noteskins)
 I'm Peter aka MegaSphere. These are my noteskins I created for StepMania as well as Simply Love fonts & judgements, and SMX gifs.
 
-All my noteskins are public domain under the Unlicense. In simple terms, I do not give *half a flying fuck* about how my noteskins are used, shared, modified, sold as merchandise, with or without credit. I could not care less. Anyone is free to do whatever with them as long as they remain in the public domain.<br>
-
-*Something I very commonly do is add optional alternative textures inside my noteskins called something like __'Tap Note parts_DevCel (Rename Me To Activate).png'__. To activate, you'd have to rename or delete the existing __'Tap Notes parts.png'__, I personally rename to __'Tap Notes parts_original.png'__. And then rename __'Tap Note parts_DevCel (Rename Me To Activate).png'__ to __'Tap Notes parts.png'.__ This way you'll get to activate an alternative look for that noteskin.*
-
-**\Livestream-Assets**<br>
-To make livestreams more beginner-friendly add ones of these to your stream.
-If your PC is powerful enough, try using an animated one!
+---
 
 **\Open-ITG**<br>
 works with Stepmania 3.95 and Open-ITG
@@ -22,7 +17,7 @@ Works with StepMania 5 and Etterna.
 SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**SM5\Completed**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Noteskins I consider completed and am unlikely to work on again unless I do a big overhaul on their lua code or something.<br>
-| - | - | - |
+| \SM5\Completed |   |   |
 | :---: | :---: | :---: |
 | CF_CHROME<br> ![CF_CHROME](https://pete-lawrence.github.io/noteskin-renders/CF_CHROME.gif) | CF_CHROMECEL<br> ![CF_CHROMECEL](https://pete-lawrence.github.io/noteskin-renders/CF_CHROMECEL.gif) | CF_ALLOY<br> ![CF_ALLOY](https://pete-lawrence.github.io/noteskin-renders/CF_ALLOY.gif) |
  | CF_VIBRANT<br> ![CF_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANT.gif) | CF_VIBRANTCEL<br> ![CF_VIBRANTCEL](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTCEL.gif) | CF_VIBRANTALLOY<br> ![CF_VIBRANTALLOY](https://pete-lawrence.github.io/noteskin-renders/CF_VIBRANTALLOY.gif) |
@@ -34,11 +29,11 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Legacy**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Very old noteskins I no longer think about or would consider myself using.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Placing them here for archiving reasons mostly or if someone's actually into one of my older works.
-| - | - | - |
+| \SM5\Legacy |   |   |
 | :---: | :---: | :---: |
 | Peter-Revolution<br> ![Peter-Revolution](https://pete-lawrence.github.io/noteskin-renders/Peter-Revolution.gif) | Peters-Ionic<br> ![Peters-Ionic](https://pete-lawrence.github.io/noteskin-renders/Peters-Ionic.gif) | Peter-Sphere<br> ![Peter-Sphere](https://pete-lawrence.github.io/noteskin-renders/Peter-Sphere.png) | 
 | Peters-Shadow-DDRLike<br> ![Peters-Shadow-DDRLike](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-DDRLike.gif) | Peters-Shadow-Scalable-Cel<br> ![Peters-Shadow-Scalable-Cel](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Cel.gif) | Peters-Shadow-Scalable-Metal<br> ![Peters-Shadow-Scalable-Metal](https://pete-lawrence.github.io/noteskin-renders/Peters-Shadow-Scalable-Metal.gif) | 
-| PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif) || - || - |
+| PETERS_ALLOY<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PETERS_ALLOY.gif) ||   ||   |
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Simply-Love-Assets**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
@@ -48,3 +43,26 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 
 **\SMX-gifs**<br>
 GIF files I made for the StepManiaX dance platform.
+
+---
+
+## [Livestream Assets (link)](https://github.com/Pete-Lawrence/Pete-Lawrence.github.io/tree/master/noteskin-renders/Livestream-Assets)
+To make livestreams more beginner-friendly add ones of these to your stream.<br>
+If your PC is powerful enough, try using an animated one!
+
+![Still](https://pete-lawrence.github.io/noteskin-renders/Livestream-Assets/Still/Still_CF_CHROME.png)
+
+## Bonus Alternative Noteskin Textures
+Something I very commonly do is add optional alternative textures inside my noteskins called something like<br>
+__'Tap Note parts_DevCel (Rename Me To Activate).png'__.<br>
+
+To activate, you'll first have to rename or delete the existing __'Tap Notes parts.png'__.<br>
+
+I personally rename the original texture by adding an underscore like __'Tap Notes parts\_.png'__.
+
+![Bonus Alternative Noteskin Textures](https://pete-lawrence.github.io/noteskin-renders/alttexture.png)
+
+---
+
+## License
+All my noteskins are public domain under the Unlicense. In simple terms, I do not give *half a flying fuck* about how my noteskins are used, shared, modified, sold as merchandise, with or without credit. I could not care less. Anyone is free to do whatever with them as long as they remain in the public domain.<br>
