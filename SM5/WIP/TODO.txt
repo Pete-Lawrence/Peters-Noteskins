@@ -5,3 +5,4 @@
 The goal of this noteskin is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
 
 Just need to add Shock Arrows I reckon.
+Also Downscroll, the Holds and Rolls need to be displayed properly.
