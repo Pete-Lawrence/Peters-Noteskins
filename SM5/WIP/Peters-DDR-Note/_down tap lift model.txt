@@ -235,7 +235,7 @@ Materials: 2
 0.000000 0.000000 0.000000 1.000000
 0.128000
 1.000000
-"mipmaps\Tap Lift_ parts (mipmaps).ini"
+"textures\Tap Lift parts (mipmaps).ini"
 ""
 "mipmap-frame"
 1.000000 1.000000 1.000000 1.000000
@@ -244,7 +244,7 @@ Materials: 2
 0.000000 0.000000 0.000000 1.000000
 0.128000
 1.000000
-"mipmaps\Tap Lift_ parts (mipmaps).ini"
+"textures\Tap Lift parts (mipmaps).ini"
 ""
 
 Bones: 0

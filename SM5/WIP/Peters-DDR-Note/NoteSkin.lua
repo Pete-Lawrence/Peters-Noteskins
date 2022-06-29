@@ -68,6 +68,7 @@ ret.PartsToRotate =
 	["Tap Note"] = true,
 	["Tap Fake"] = true,
 	["Tap Lift"] = true,
+	--["Tap Mine"] = true,
 	["Tap Addition"] = true,
 	["Hold Explosion"] = true,
 	["Hold Head Active"] = true,
