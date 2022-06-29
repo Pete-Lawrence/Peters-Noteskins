@@ -1,4 +1,7 @@
 # Peters-DDR-Note
+# Peters-DDR-Rainbow (inherts from Peters-DDR-Note)
+# Peters-DDR-Vivid (inherts from Peters-DDR-Note)
+
 The goal of this noteskin is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
 
 Just need to add Shock Arrows I reckon.
