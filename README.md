@@ -24,6 +24,7 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
  | PETERS_METAL<br> ![PETERS_METAL](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL.gif) | PETERS_CEL<br> ![PETERS_CEL](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL.gif) |  Peters-DDR-Note<br> ![Peters-DDR-Note](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Note.gif) |
  | PETERS_METAL_VIBRANT<br> ![PETERS_METAL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_METAL_VIBRANT.gif) | PETERS_CEL_VIBRANT<br> ![PETERS_CEL_VIBRANT](https://pete-lawrence.github.io/noteskin-renders/PETERS_CEL_VIBRANT.gif) |  Peters-DDR-Rainbow<br> ![Peters-DDR-Rainbow](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Rainbow.gif) | 
  | DivideByPeter<br> ![DivideByPeter](https://pete-lawrence.github.io/noteskin-renders/DivideByPeter.png) | PeterFunkin<br> ![PeterFunkin](https://pete-lawrence.github.io/noteskin-renders/PeterFunkin.png) |  Peters-DDR-Vivid<br> ![Peters-DDR-Vivid](https://pete-lawrence.github.io/noteskin-renders/Peters-DDR-Vivid.gif) |
+ | PeterRevolutionRemix<br> ![PETERS_ALLOY](https://pete-lawrence.github.io/noteskin-renders/PeterRevolutionRemix.gif) ||   ||   |
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Legacy**<br>
