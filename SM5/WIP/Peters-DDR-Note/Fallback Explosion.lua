@@ -1,7 +1,7 @@
 local marvelouscolour = color("#ffffff")
-local perfectcolour = color("#cdce58")
-local greatcolour = color("#4bbf4b")
-local goodcolour = color("#42c3a4")
+local perfectcolour = color("#fff064")
+local greatcolour = color("#3fff3f")
+local goodcolour = color("#3effbf")
 
 local inneralpha = 0.0
 
@@ -10,7 +10,7 @@ local inneralpha = 0.0
 local function brightflash(thecolour)
 	return function(self) self:finishtweening()
 		self:diffuse(thecolour):diffusealpha(0.9):zoom(0.7)
-		:linear(6/60):zoom(0.925)
+		:linear(6/60):zoom(0.95)
 		:sleep(0):diffuse(0,0,0,1)
 	end
 end
@@ -18,7 +18,7 @@ end
 -- Regular Flash COMMAND
 local function dimflash(thecolour)
 	return function(self)
-		self:diffuse(thecolour):diffusealpha(1):zoom(1)
+		self:diffuse(thecolour):diffusealpha(0.9):zoom(1)
 		:linear(9/60):diffuse(0,0,0,1):zoom(1.25)
 	end
 end
@@ -52,8 +52,8 @@ return Def.ActorFrame {
 		
 		--Perfect (Inner Marvelous Flash)
 		W2Command=function(self) self:finishtweening()
-			self:diffuse(color("#b9b9b9")):zoom(0.52)
-			:linear(3/60):zoom(0.65)
+			self:diffuse(color("#ffffff")):zoom(0.54)
+			:linear(3/60):zoom(0.7)
 			:sleep(2/60):diffuse(0,0,0,1)
 		end,
 	},
