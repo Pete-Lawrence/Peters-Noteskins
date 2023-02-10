@@ -1,16 +1,6 @@
---I am the bone of my noteskin
---Arrows are my body, and explosions are my blood
---I have created over a thousand noteskins
---Unknown to death
---Nor known to life
---Have withstood pain to create many noteskins
---Yet these hands will never hold anything
---So as I pray, Unlimited Stepman Works
-
-
 local ret = ... or {};
 
---Defining on which direction the other directions should be bassed on
+--Defining on which direction the other directions should be based on
 --This will let us use less files which is quite handy to keep the noteskin directory nice
 --Do remember this will Redirect all the files of that Direction to the Direction its pointed to
 ret.RedirTable =
@@ -24,11 +14,7 @@ ret.RedirTable =
 };
 
 -- < 
---Between here we usally put all the commands the noteskin.lua needs to do, some are extern in other files
---If you need help with lua go to  http://kki.ajworld.net/lua/ssc/Lua.xml there are a bunch of codes there
---Also check out commen it has a load of lua codes in files there
---Just play a bit with lua its not that hard if you understand coding
---But SM can be an ass in some cases, and some codes jut wont work if you dont have the noteskin on FallbackNoteSkin=common in the metric.ini 
+--Between here we usually put all the commands the noteskin.lua needs to do, some are external in other files
 local OldRedir = ret.Redir;
 ret.Redir = function(sButton, sElement)
 	sButton, sElement = OldRedir(sButton, sElement);
@@ -41,7 +27,9 @@ ret.Redir = function(sButton, sElement)
 		end
 	end
 
-	sButton = ret.RedirTable[sButton];
+	if not string.find(sElement, "Mine") then
+     sButton = ret.RedirTable[sButton];
+	end
 
 	return sButton, sElement;
 end
@@ -68,7 +56,6 @@ ret.PartsToRotate =
 	["Tap Note"] = true,
 	["Tap Fake"] = true,
 	["Tap Lift"] = true,
-	--["Tap Mine"] = true,
 	["Tap Addition"] = true,
 	["Hold Explosion"] = true,
 	["Hold Head Active"] = true,
@@ -102,5 +89,5 @@ ret.Blank =
 	["Roll Tail Inactive"] = true,
 };
 
--- dont forget to close the ret cuz else it wont work ;>
+-- Don't forget to close the ret cuz else it wont work ;>
 return ret;
