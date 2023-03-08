@@ -29,6 +29,40 @@ local holdflash = NOTESKIN:LoadActor(Var "Button", "Flash Dim")..{ Name="holdfla
 	FlashCommand=dimflash(perfectcolour)
 }
 
+-- Hit Shock Arrow COMMAND Inner White Circle
+local function hitshockarrow()
+	return function(self) self:finishtweening()
+			self:blend(Blend.Add):diffusealpha(1.0):linear(6/60)
+			:sleep(0):diffusealpha(0.0)
+	end
+end
+
+-- Hit Shock Arrow COMMAND Outer Blue Circle
+local function hitshockarrow2()
+	return function(self) self:finishtweening()
+			self:zoom(0.8):diffusealpha(0.3):sleep(0)
+			:linear(5/60):diffusealpha(0.8):zoom(1.2)
+			:linear(5/60):diffusealpha(0.0):zoom(1.6)
+	end
+end
+
+
+-- Hit Shock Arrow COMMAND Frame Based Animation
+local function hitshockarrow3()
+	return function(self) self:finishtweening()
+			self:diffusealpha(1.0):sleep(8/30):diffusealpha(0.0)
+			self:SetStateProperties({
+			{Frame= 0, Delay=(1/30)},
+			{Frame= 1, Delay=(1/30)},
+			{Frame= 2, Delay=(1/30)},
+			{Frame= 3, Delay=(1/30)},
+			{Frame= 4, Delay=(1/30)},
+			{Frame= 5, Delay=(1/30)},
+			{Frame= 6, Delay=(1/30)},
+			{Frame= 7, Delay=(1/30)}
+			});
+	end
+end
 
 ------------------------------------------------------
 
@@ -86,8 +120,21 @@ return Def.ActorFrame {
 	},
 	
 	--Mine Explosion Commands
+	--Inner White Circle
 	NOTESKIN:LoadActor( Var "Button", "HitMine Explosion" ) .. {
-		InitCommand=cmd(blend,"BlendMode_Add";diffusealpha,0);
-		HitMineCommand=NOTESKIN:GetMetricA("GhostArrowBright", "HitMineCommand");
+		InitCommand=cmd(diffusealpha,0);
+		HitMineCommand=hitshockarrow(),
+	},
+	
+	--Outer Blue Circle
+	NOTESKIN:LoadActor( Var "Button", "HitMine2 Explosion" ) .. {
+		InitCommand=cmd(diffusealpha,0);
+		HitMineCommand=hitshockarrow2(),
+	},
+		
+	--Frame Based Animation
+	NOTESKIN:LoadActor( Var "Button", "HitMine3 Explosion" ) .. {
+		InitCommand=cmd(diffusealpha,0);
+		HitMineCommand=hitshockarrow3(),
 	},
 }

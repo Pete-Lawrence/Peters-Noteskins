@@ -3,6 +3,8 @@
 # Peters-DDR-Vivid (inherts from Peters-DDR-Note)
 
 The goal of this noteskin is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
+Rainbow Correctly displays 16th notes before 8th notes as pink, and 16th notes after 8th notes as purple!
 
-Just need to add Shock Arrows I reckon.
+Shock Arrow explosion slightly WIP as this graphic isn't complete "Fallback HitMine3 Explosion 4x2 (res 256x128).png"
+
 Also Downscroll, the Holds and Rolls need to be displayed properly.
