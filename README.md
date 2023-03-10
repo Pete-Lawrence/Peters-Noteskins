@@ -67,3 +67,5 @@ I personally rename the original texture by adding an underscore like __'Tap Not
 
 ## License
 All my noteskins are public domain under the Unlicense. In simple terms, I do not give *half a flying fuck* about how my noteskins are used, shared, modified, sold as merchandise, with or without credit. I could not care less. Anyone is free to do whatever with them as long as they remain in the public domain.<br>
+
+CF_CHROME uses a [free VDB set](https://jangafx.com/software/embergen/download/free-vdb-animations/) (Aerial Explosion) that was created with Embergen by [JANGAFX LLC](https://jangafx.com) which is licensed under [Creative Commons - Public Domain - CC0](https://creativecommons.org/publicdomain/zero/1.0/)
