@@ -7,19 +7,28 @@
 --So you dont have to do "Down" or "Up" or "Left" etc for every direction which will save space ;)
 
 --Mine Explosion Commands
-local function hitmineanimation()
-	return function(self)
-		self:diffusealpha(0.9):zoom(0.75):accelerate(64/60):diffusealpha(0.0):zoom(1.0):setstate(0):animate(true)
-	end
-end
-
-local minesplosion = NOTESKIN:LoadActor( Var "Button", "HitMine Explosion" ) .. {
-	Name="minesplosion",
-	InitCommand=function(self)
-		self:SetStateProperties(Sprite.LinearFrames(64,(64/60)));
-		self:diffusealpha(0);
+local minesplosion = Def.ActorFrame {
+		Name="minesplosion",
+	ExplodeCommand=function(self)
+		self:y(0):linear(64/60):y(-64)
+		self:playcommand("E")
 	end;
-	ExplodeCommand=hitmineanimation();
+	Explode2Command=function(self)
+		self:y(0):linear(64/60):y(-64)
+		self:playcommand("E2")
+	end;
+	NOTESKIN:LoadActor( Var "Button", "HitMine Explosion" ) .. {
+		InitCommand=function(self)
+			self:SetStateProperties(Sprite.LinearFrames(64,(64/60)));
+			self:diffusealpha(0);
+		end;
+		ECommand=function(self)
+			self:blend("BlendMode_Normal"):diffusealpha(1.0):zoom(0.75):accelerate(64/60):diffusealpha(0.0):zoom(1.0):setstate(0):animate(true)
+		end;
+		E2Command=function(self)
+			self:blend("BlendMode_Add"):diffusealpha(1.0):zoom(0.75):accelerate(64/60):diffusealpha(0.0):zoom(1.0):setstate(0):animate(true)
+		end;
+	}
 }
 
 local t = Def.ActorFrame {
@@ -130,7 +139,7 @@ local t = Def.ActorFrame {
 			DimCommand=cmd(visible,false);
 		};
 	};
-
+	
 	--Mine Explosion Emitter
     Def.ActorFrame {
         InitCommand=function(self)
@@ -139,11 +148,11 @@ local t = Def.ActorFrame {
         end,
         HitMineCommand=function(self)
 			--grab a copy and increment
-            self.explosions[self.emitnumber]:finishtweening():blend("BlendMode_Normal"):playcommand("Explode")
+            self.explosions[self.emitnumber]:finishtweening():playcommand("Explode")
             self.emitnumber = (self.emitnumber % #self.explosions) + 1
 			
-			--grab another copy and increment (set this one's blend to add)
-            self.explosions[self.emitnumber]:finishtweening():blend("BlendMode_Add"):playcommand("Explode")
+			--grab another copy and increment
+            self.explosions[self.emitnumber]:finishtweening():playcommand("Explode2")
             self.emitnumber = (self.emitnumber % #self.explosions) + 1
         end,
 		
