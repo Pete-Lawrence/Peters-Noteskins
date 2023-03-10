@@ -5,6 +5,23 @@
 --The NOTESKIN:LoadActor() just tells us the name of the image the Actor redirects on.
 --Oh and if you wonder about the "Button" in the "NOTESKIN:LoadActor( )" it means that it will check for that direction.
 --So you dont have to do "Down" or "Up" or "Left" etc for every direction which will save space ;)
+
+--Mine Explosion Commands
+local function hitmineanimation()
+	return function(self)
+		self:diffusealpha(0.9):zoom(0.75):accelerate(64/60):diffusealpha(0.0):zoom(1.0):setstate(0):animate(true)
+	end
+end
+
+local minesplosion = NOTESKIN:LoadActor( Var "Button", "HitMine Explosion" ) .. {
+	Name="minesplosion",
+	InitCommand=function(self)
+		self:SetStateProperties(Sprite.LinearFrames(64,(64/60)));
+		self:diffusealpha(0);
+	end;
+	ExplodeCommand=hitmineanimation();
+}
+
 local t = Def.ActorFrame {
 	--Hold Explosion Commands
 	NOTESKIN:LoadActor( Var "Button", "Hold Explosion" ) .. {
@@ -113,10 +130,25 @@ local t = Def.ActorFrame {
 			DimCommand=cmd(visible,false);
 		};
 	};
-	--Mine Explosion Commands
-	NOTESKIN:LoadActor( Var "Button", "HitMine Explosion" ) .. {
-		InitCommand=cmd(blend,"BlendMode_Add";diffusealpha,0);
-		HitMineCommand=NOTESKIN:GetMetricA("GhostArrowBright", "HitMineCommand");
-	};
+
+	--Mine Explosion Emitter
+    Def.ActorFrame {
+        InitCommand=function(self)
+            self.emitnumber = 1
+            self.explosions = self:GetChild("minesplosion")
+        end,
+        HitMineCommand=function(self)
+			--grab a copy and increment
+            self.explosions[self.emitnumber]:finishtweening():blend("BlendMode_Normal"):playcommand("Explode")
+            self.emitnumber = (self.emitnumber % #self.explosions) + 1
+			
+			--grab another copy and increment (set this one's blend to add)
+            self.explosions[self.emitnumber]:finishtweening():blend("BlendMode_Add"):playcommand("Explode")
+            self.emitnumber = (self.emitnumber % #self.explosions) + 1
+        end,
+		
+		--feed 6 copies into the actor
+        minesplosion, minesplosion, minesplosion, minesplosion, minesplosion, minesplosion
+    },
 }
 return t;
