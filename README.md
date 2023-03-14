@@ -63,6 +63,8 @@ I personally rename the original texture by adding an underscore like __'Tap Not
 
 ![Bonus Alternative Noteskin Textures](https://pete-lawrence.github.io/noteskin-renders/alttexture.png)
 
+Also inside CF_CHOME there are additional Mine models called '_mine model 75.txt' and '_mine model 50.txt'. This is for is you prefer playing with smaller mines. The 75 means it's at 75% scale, and the 50 means it's at 50% scale.
+
 ---
 
 ## License
