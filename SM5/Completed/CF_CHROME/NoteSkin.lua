@@ -99,16 +99,8 @@ end
 ret.PartsToRotate =
 {
 	["Receptor"] = true,
-	["Tap Explosion Bright W1"] = true,
-	["Tap Explosion Dim W1"] = true,
-	["Tap Explosion Bright W2"] = true,
-	["Tap Explosion Dim W2"] = true,
-	["Tap Explosion Bright W3"] = true,
-	["Tap Explosion Dim W3"] = true,
-	["Tap Explosion Bright W4"] = true,
-	["Tap Explosion Dim W4"] = true,
-	["Tap Explosion Bright W5"] = true,
-	["Tap Explosion Dim W5"] = true,
+	["Flash"] = true,
+	["Glow"] = true,
 	["Tap Note"] = true,
 	["Tap Fake"] = true,
 	["Tap Lift"] = true,

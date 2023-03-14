@@ -1,9 +1,9 @@
 --Judgement Colours
 local W1colour = color("#00C8FF") --Blue Fantastic
-local W2colour = color("#FFC917") --Amber Excellent
-local W3colour = color("#30ED24") --Green Great
-local W4colour = color("#E55BFC") --Purple Decent
-local W5colour = color("#E75B01") --Orange WayOff
+local W2colour = color("#DBDBDB") --White Fantastic
+local W3colour = color("#FFC917") --Amber Excellent
+local W4colour = color("#30ED24") --Green Great
+local W5colour = color("#E55BFC") --Purple Decent
 local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
 
 -- Flash Add COMMAND (Coloured by judgement)
