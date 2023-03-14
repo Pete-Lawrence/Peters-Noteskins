@@ -1,10 +1,26 @@
---Judgement Colours
+-- Judgement Colours ITG
 local W1colour = color("#00C8FF") --Blue Fantastic
 local W2colour = color("#FFC917") --Amber Excellent
 local W3colour = color("#30ED24") --Green Great
 local W4colour = color("#E55BFC") --Purple Decent
 local W5colour = color("#E75B01") --Orange WayOff
 local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
+
+-- Judgement Colours FA+
+-- local W1colour = color("#00C8FF") --Blue Fantastic
+-- local W2colour = color("#DBDBDB") --White Fantastic
+-- local W3colour = color("#FFC917") --Amber Excellent
+-- local W4colour = color("#30ED24") --Green Great
+-- local W5colour = color("#E55BFC") --Purple Decent
+-- local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
+
+--Judgement Colours Waterfall
+-- local W1colour = color("#E55BFC") --Purple Masterful
+-- local W2colour = color("#FFC917") --Amber Awesome
+-- local W3colour = color("#30ED24") --Green Solid
+-- local W4colour = color("#00C8FF") --Blue Ok
+-- local W5colour = color("#DBDBDB") --White Fault
+-- local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
 
 -- Flash Add COMMAND (Coloured by judgement)
 local function flashadd(thecolour)
@@ -99,7 +115,7 @@ local t = Def.ActorFrame {
 		HeldCommand=flashadd(Hdcolour),
 	};
 
-	--TAP Flash Normal
+	--TAP+HELD Flash Normal
 	NOTESKIN:LoadActor(Var "Button", "Flash")..{ 
 		JudgmentCommand=function(self) end,
 		InitCommand=cmd(diffusealpha,0);
