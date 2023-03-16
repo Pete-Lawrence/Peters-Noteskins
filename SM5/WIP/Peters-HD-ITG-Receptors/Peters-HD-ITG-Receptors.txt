@@ -1,6 +1,0 @@
-HD Versions of the ITG receptors made by me, Peter.
-I got them as faithful as I could to the original graphics in Affinity Designer.
-
-The Down Receptor.lua should work the same as ITG in SM5.
-
-23/06/2022

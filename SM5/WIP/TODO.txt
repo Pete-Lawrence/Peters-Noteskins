@@ -8,3 +8,5 @@ Rainbow Correctly displays 16th notes before 8th notes as pink, and 16th notes a
 Shock Arrow explosion slightly WIP as this graphic isn't complete "Fallback HitMine3 Explosion 4x2 (res 256x128).png"
 
 Also Downscroll, the Holds and Rolls need to be displayed properly.
+
+And Active Holds need a 3 frame fade-in animation to match DDR.
