@@ -40,7 +40,7 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\WIP**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinished. Am I planning on finishing them? At some point maybe lmao.
+&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinished but are still very usable. Expect me to continue tweaking them until they arrive to the Completed folder.
 
 **\SMX-gifs**<br>
 GIF files I made for the StepManiaX dance platform.
