@@ -1,18 +1,12 @@
 -- Judgement Colours ITG
 local W1colour = color("#00C8FF") --Blue Fantastic
+local W11colour = color("#DBDBDB") --White Fantastic
 local W2colour = color("#FFC917") --Amber Excellent
 local W3colour = color("#30ED24") --Green Great
 local W4colour = color("#E55BFC") --Purple Decent
 local W5colour = color("#E75B01") --Orange WayOff
-local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
-
--- Judgement Colours FA+
--- local W1colour = color("#00C8FF") --Blue Fantastic
--- local W2colour = color("#DBDBDB") --White Fantastic
--- local W3colour = color("#FFC917") --Amber Excellent
--- local W4colour = color("#30ED24") --Green Great
--- local W5colour = color("#E55BFC") --Purple Decent
--- local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
+local Hdcolour = color("#00C8FF") --Initial HOLD/ROLL Colour
+local Lastcolour = color("#E55BFC") --HOLD/ROLL Colour from Judgement
 
 --Judgement Colours Waterfall
 -- local W1colour = color("#E55BFC") --Purple Masterful
@@ -20,11 +14,14 @@ local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
 -- local W3colour = color("#30ED24") --Green Solid
 -- local W4colour = color("#00C8FF") --Blue Ok
 -- local W5colour = color("#DBDBDB") --White Fault
--- local Hdcolour = color("#00C8FF") --HOLD/ROLL Colour
+
 
 -- Flash Add COMMAND (Coloured by judgement)
-local function flashadd(thecolour)
+local function flashadd(thecolour,updatelast)
 	return function(self)
+		if updatelast then
+			Lastcolour = thecolour
+		end
 		self:finishtweening()
 		:diffuse(thecolour)
 		:blend(Blend.Add)
@@ -37,13 +34,21 @@ local function flashadd(thecolour)
 end
 
 -- Flash Normal COMMAND (Coloured by judgement)
-local function flashnormal(thecolour)
+local function flashnormal(thecolour,uselast)
 	return function(self)
-		self:finishtweening()
-		:diffuse(thecolour)
-		:diffusealpha(1.0)
-		:linear(10/60)
-		:diffusealpha(0.0)
+		if uselast then
+			self:finishtweening()
+			:diffuse(Lastcolour)
+			:diffusealpha(1.0)
+			:linear(10/60)
+			:diffusealpha(0.0)
+		else
+			self:finishtweening()
+			:diffuse(thecolour)
+			:diffusealpha(1.0)
+			:linear(10/60)
+			:diffusealpha(0.0)
+		end
 	end
 end
 
@@ -89,7 +94,7 @@ local t = Def.ActorFrame {
 	NOTESKIN:LoadActor(Var "Button", "Glow")..{ 
 		InitCommand=cmd(diffusealpha,0);
 		
-		HoldingOnCommand=function(self) self:finishtweening():blend("BlendMode_Add"):diffuse(Hdcolour):diffusealpha(1.0):glowshift():effectperiod(0.05):effectcolor1(1,1,1,1,0):effectcolor2(1,1,1,0.5) end,
+		HoldingOnCommand=function(self) self:finishtweening():blend("BlendMode_Add"):diffuse(Lastcolour):diffusealpha(1.0):glowshift():effectperiod(0.05):effectcolor1(1,1,1,1,0):effectcolor2(1,1,1,0.5) end,
 		HoldingOffCommand=cmd(diffusealpha,0);
 	};
 
@@ -97,7 +102,7 @@ local t = Def.ActorFrame {
 	NOTESKIN:LoadActor(Var "Button", "Glow")..{ 
 		InitCommand=cmd(diffusealpha,0);
 		
-		RollOnCommand=function(self) self:finishtweening():blend("BlendMode_Add"):diffuse(Hdcolour):diffusealpha(1.0):glowshift():effectperiod(0.05):effectcolor1(1,1,1,1,0):effectcolor2(1,1,1,0.5) end,
+		RollOnCommand=function(self) self:finishtweening():blend("BlendMode_Add"):diffuse(Lastcolour):diffusealpha(1.0):glowshift():effectperiod(0.05):effectcolor1(1,1,1,1,0):effectcolor2(1,1,1,0.5) end,
 		RollOffCommand=cmd(diffusealpha,0);
 	};
 
@@ -107,12 +112,14 @@ local t = Def.ActorFrame {
 		JudgmentCommand=function(self) end,
 		InitCommand=cmd(diffusealpha,0);
 
-		W1Command=flashadd(W1colour),
-		W2Command=flashadd(W2colour),
-		W3Command=flashadd(W3colour),
-		W4Command=flashadd(W4colour),
-		W5Command=flashadd(W5colour),
-		HeldCommand=flashadd(Hdcolour),
+		W1Command=flashadd(W1colour,true),
+		W2Command=flashadd(W2colour,true),
+		W3Command=flashadd(W3colour,true),
+		W4Command=flashadd(W4colour,true),
+		W5Command=flashadd(W5colour,true),
+		HeldCommand=flashadd(Lastcolour,false),
+		
+		BrightCommand=flashadd(W11colour,true),
 	};
 
 	--TAP+HELD Flash Normal
@@ -120,12 +127,14 @@ local t = Def.ActorFrame {
 		JudgmentCommand=function(self) end,
 		InitCommand=cmd(diffusealpha,0);
 
-		W1Command=flashnormal(W1colour),
-		W2Command=flashnormal(W2colour),
-		W3Command=flashnormal(W3colour),
-		W4Command=flashnormal(W4colour),
-		W5Command=flashnormal(W5colour),
-		HeldCommand=flashnormal(Hdcolour),
+		W1Command=flashnormal(W1colour,false),
+		W2Command=flashnormal(W2colour,false),
+		W3Command=flashnormal(W3colour,false),
+		W4Command=flashnormal(W4colour,false),
+		W5Command=flashnormal(W5colour,false),
+		HeldCommand=flashnormal(Hdcolour,true),
+		
+		BrightCommand=flashnormal(W11colour,false),
 	};
 	--TAP+HELD Flash Glow
 	NOTESKIN:LoadActor(Var "Button", "Glow")..{ 
@@ -137,6 +146,8 @@ local t = Def.ActorFrame {
 		W4Command=glowover(),
 		W5Command=glowover(),
 		HeldCommand=glowover(),
+		
+		BrightCommand=glowover(),
 	};
 
 };
