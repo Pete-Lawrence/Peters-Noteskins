@@ -49,6 +49,7 @@ USWN.PartsToRotate =
 {
 	["Receptor"] = true,
 	["Tap Explosion Dim W1"] = true,
+	["Tap Explosion Bright W1"] = true,
 	["Tap Explosion Dim W2"] = true,
 	["Tap Explosion Dim W3"] = true,
 	["Tap Explosion Dim W4"] = true,
