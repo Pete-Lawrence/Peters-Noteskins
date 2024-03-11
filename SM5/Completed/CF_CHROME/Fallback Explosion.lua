@@ -6,7 +6,7 @@ local W3colour = color("#30ED24") --Green Great
 local W4colour = color("#E55BFC") --Purple Decent
 local W5colour = color("#E75B01") --Orange WayOff
 local Hdcolour = color("#00C8FF") --Initial HOLD/ROLL Colour
-local Lastcolour = color("#E55BFC") --HOLD/ROLL Colour from Judgement
+local Lastcolour = color("#00C8FF") --HOLD/ROLL Colour from Judgement
 
 
 -- Flash Add COMMAND (Coloured by judgement)
