@@ -8,13 +8,6 @@ local W5colour = color("#E75B01") --Orange WayOff
 local Hdcolour = color("#00C8FF") --Initial HOLD/ROLL Colour
 local Lastcolour = color("#E55BFC") --HOLD/ROLL Colour from Judgement
 
---Judgement Colours Waterfall
--- local W1colour = color("#E55BFC") --Purple Masterful
--- local W2colour = color("#FFC917") --Amber Awesome
--- local W3colour = color("#30ED24") --Green Solid
--- local W4colour = color("#00C8FF") --Blue Ok
--- local W5colour = color("#DBDBDB") --White Fault
-
 
 -- Flash Add COMMAND (Coloured by judgement)
 local function flashadd(thecolour,updatelast)
@@ -38,7 +31,6 @@ local function flashnormal(thecolour,uselast)
 	return function(self)
 		if uselast then
 			self:finishtweening()
-			:diffuse(Lastcolour)
 			:diffusealpha(1.0)
 			:linear(10/60)
 			:diffusealpha(0.0)
@@ -119,7 +111,18 @@ local t = Def.ActorFrame {
 		W5Command=flashadd(W5colour,true),
 		HeldCommand=flashadd(Lastcolour,false),
 		
-		BrightCommand=flashadd(W11colour,true),
+		BrightCommand=cmd(visible,false),
+		DimCommand=cmd(visible,true),
+	};
+	NOTESKIN:LoadActor(Var "Button", "Flash")..{ 
+		JudgmentCommand=function(self) end,
+		InitCommand=cmd(diffusealpha,0);
+
+		W1Command=flashadd(W11colour,false),
+		HeldCommand=flashadd(Lastcolour,false),
+		
+		BrightCommand=cmd(visible,true),
+		DimCommand=cmd(visible,false),
 	};
 
 	--TAP+HELD Flash Normal
@@ -132,9 +135,24 @@ local t = Def.ActorFrame {
 		W3Command=flashnormal(W3colour,false),
 		W4Command=flashnormal(W4colour,false),
 		W5Command=flashnormal(W5colour,false),
-		HeldCommand=flashnormal(Hdcolour,true),
+		HeldCommand=flashnormal(Lastcolour,true),
 		
-		BrightCommand=flashnormal(W11colour,false),
+		BrightCommand=cmd(visible,false),
+		DimCommand=cmd(visible,true),
+	};
+	NOTESKIN:LoadActor(Var "Button", "Flash")..{ 
+		JudgmentCommand=function(self) end,
+		InitCommand=cmd(diffusealpha,0);
+
+		W1Command=flashnormal(W11colour,false),
+		W2Command=flashnormal(W2colour,false),
+		W3Command=flashnormal(W3colour,false),
+		W4Command=flashnormal(W4colour,false),
+		W5Command=flashnormal(W5colour,false),
+		HeldCommand=flashnormal(Lastcolour,true),
+		
+		BrightCommand=cmd(visible,true),
+		DimCommand=cmd(visible,false),
 	};
 	--TAP+HELD Flash Glow
 	NOTESKIN:LoadActor(Var "Button", "Glow")..{ 
