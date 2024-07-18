@@ -1,0 +1,8 @@
+The goal of this noteskin is to be as close to 1:1 to the DDR noteskin as possible with minor improvements, like less colour banding on the gradients.
+
+Rainbow Correctly displays 16th notes before 8th notes as pink, and 16th notes after 8th notes as purple!
+
+Unfortunately breaks using Downscroll. The Holds and Rolls aren't displayed properly.
+
+A few differences from DDR, DDR Active Holds have a 3 frame fade-in animation.
+DDR Freeze Arrows without a tail (Jumps) should emit a yellow Marvelous flash when hit but I don't think StepMania can mimic this behaviour.

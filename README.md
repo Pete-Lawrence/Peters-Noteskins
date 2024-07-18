@@ -6,11 +6,10 @@ I'm Peter aka MegaSphere. These are my noteskins I created for StepMania as well
 
 **\Open-ITG**<br>
 works with Stepmania 3.95 and Open-ITG
-You'll find mostly just legacy noteskins in here that I no longer work on.
+You'll find legacy noteskins in here that I no longer work on.
 
 **\Not-ITG**<br>
 Based off the Open-ITG noteskins except uses (doubleres) graphics.
-Again, noteskins in here I believe are complete and am unlikely to work on them again.
 
 **\SM5**<br>
 Works with StepMania 5 and Etterna.
@@ -39,8 +38,8 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Simply-Love-Assets**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\SM5\WIP**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Noteskins I considered unfinished but are still very usable. Expect me to continue tweaking them until they arrive to the Completed folder.
+&nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Extra**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contains Centre Panels models and graphics for the CF Family of Noteskins. Useful for porting to other games.
 
 **\SMX-gifs**<br>
 GIF files I made for the StepManiaX dance platform.
