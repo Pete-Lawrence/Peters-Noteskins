@@ -8,6 +8,18 @@ local W5colour = color("#E75B01") --Orange WayOff
 local Hdcolour = color("#00C8FF") --Initial HOLD/ROLL Colour
 local Lastcolour = color("#00C8FF") --HOLD/ROLL Colour from Judgement
 
+-- Flash Spark COMMAND (FA+ Marvelous Flash)
+local function flashspark(thecolour)
+	return function(self) self:finishtweening()
+		self:diffuse(thecolour)
+		:diffusealpha(0.9)
+		:zoom(0.7)
+		:linear(6/60)
+		:zoom(0.925)
+		:sleep(0)
+		:diffuse(0,0,0,1)
+	end
+end
 
 -- Flash Add COMMAND (Coloured by judgement)
 local function flashadd(thecolour,updatelast)
@@ -99,6 +111,17 @@ local t = Def.ActorFrame {
 	};
 
 	Def.ActorFrame {
+	--TAP+HELD Flash Spark
+	NOTESKIN:LoadActor(Var "Button", "Spark")..{ 
+		JudgmentCommand=function(self) self:finishtweening() end,
+		InitCommand=function(self) self:blend(Blend.Add):diffuse(0,0,0,0) end,
+
+		W1Command=flashspark(W1colour,true),
+		
+		BrightCommand=cmd(visible,false),
+		DimCommand=cmd(visible,true),
+	};
+	
 	--TAP+HELD Flash Add
 	NOTESKIN:LoadActor(Var "Button", "Flash")..{ 
 		JudgmentCommand=function(self) end,
