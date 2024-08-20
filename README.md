@@ -73,3 +73,16 @@ All my noteskins are public domain under the Unlicense. In simple terms, I do no
 CF_CHROME uses a [free VDB set](https://jangafx.com/software/embergen/download/free-vdb-animations/) (Aerial Explosion) that was created with Embergen by [JANGAFX LLC](https://jangafx.com) which is licensed under [Creative Commons - Public Domain - CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 Fantasma font is by [Froyo Tam](https://github.com/froyotam/Fantasma).
+
+---
+
+###  Additional Credits
+Roger Clark for providing feedback in the early development of the CF noteskins for [Club Fantastic](https://www.clubfantastic.dance/) (that's what the CF stands for).
+
+Jousway for providing the basis. My SM5 noteskins are forks of Jousway's work.
+
+j0e for helping out with the DDR noteskin Lua code. A big shout-out for the [flash emitter code](https://github.com/Pete-Lawrence/Peters-Noteskins/blob/6127dcd60381c53c84cbff098b5c7c83e2a6df00/SM5/Completed/Peters-DDR-Note/Fallback%20Explosion.lua#L88) for holding down a Freeze Arrow.
+
+Taronuke for answering my questions whenever I'm struggling with Lua. Especially the [CF Noteskin Mine Explosion Lua](https://github.com/Pete-Lawrence/Peters-Noteskins/blob/6127dcd60381c53c84cbff098b5c7c83e2a6df00/SM5/Completed/CF_CHROME/Fallback%20Explosion.lua#L195) and it's ability to overlap itself instead of restarting the animation when triggering multiple mines.
+
+Zankoku for implementing the [Hold/Roll flash colour match the current timing judgement](https://github.com/Pete-Lawrence/Peters-Noteskins/blob/6127dcd60381c53c84cbff098b5c7c83e2a6df00/SM5/Completed/CF_CHROME/Fallback%20Explosion.lua#L24) for the CF noteskins. Also helping with ITGmania's FA+ blue/white implementation.
