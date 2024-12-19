@@ -1,4 +1,4 @@
 local t = Def.Sprite {
-	Texture=NOTESKIN:GetPath( '_Down', 'roll body inactive' );
+	Texture=NOTESKIN:GetPath( '_Center', 'roll body inactive' );
 };
 return t;

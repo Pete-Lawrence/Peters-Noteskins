@@ -38,9 +38,6 @@ SM5 is what I mainly focus on now. Here you'll find a lot more options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Simply-Love-Assets**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Judgements and Fonts I did for Simply Love or themes based off of Simply Love.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\SM5\Extra**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Contains Centre Panels models and graphics for the CF Family of Noteskins. Useful for porting to other games.
-
 **\SMX-gifs**<br>
 GIF files I made for the StepManiaX dance platform.
 
@@ -64,6 +61,8 @@ I personally rename the original texture by adding an underscore like __'Tap Not
 
 Also inside CF_CHROME there are additional Mine models called '_mine model 75.txt' and '_mine model 50.txt'. This is for if you prefer playing with smaller mines. The 75 means it's at 75% scale, and the 50 means it's at 50% scale.
 Inside PETERS_CEL and PETERS_METAL are optional receptors that are my HD recreations of the ITG receptors.
+
+The CF Family of noteskins also work with the Pump gamemode, and for the SMX gamemode, there are alternative diamond shaped center panel assets in folders called '\alt Center'.
 
 ---
 

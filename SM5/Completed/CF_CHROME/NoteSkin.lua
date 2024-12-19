@@ -12,6 +12,9 @@ ret.RedirTable =
 	Right = "Down",
 	UpLeft = "Down",
 	UpRight = "Down",
+	DownLeft = "Down",
+	DownRight = "Down",
+	Center = "Center",
 };
 
 
@@ -90,6 +93,38 @@ function ret.Load()
 		t.BaseRotationZ = 225;
 	end
 	
+	if Var "Button" == "DownLeft" and Var "Element" == "Hold Head Active"	then
+		t.BaseRotationZ = 45;
+	end
+	
+	if Var "Button" == "DownLeft" and Var "Element" == "Hold Head Inactive"	then
+		t.BaseRotationZ = 45;
+	end
+	
+	if Var "Button" == "DownLeft" and Var "Element" == "Roll Head Active"	then
+		t.BaseRotationZ = 45;
+	end
+	
+	if Var "Button" == "DownLeft" and Var "Element" == "Roll Head Inactive"	then
+		t.BaseRotationZ = 45;
+	end
+	
+	if Var "Button" == "DownRight" and Var "Element" == "Hold Head Active"	then
+		t.BaseRotationZ = -45;
+	end
+	
+	if Var "Button" == "DownRight" and Var "Element" == "Hold Head Inactive"	then
+		t.BaseRotationZ = -45;
+	end
+	
+	if Var "Button" == "DownRight" and Var "Element" == "Roll Head Active"	then
+		t.BaseRotationZ = -45;
+	end
+	
+	if Var "Button" == "DownRight" and Var "Element" == "Roll Head Inactive"	then
+		t.BaseRotationZ = -45;
+	end
+	
 	return t;
 end
 -- >
@@ -101,6 +136,7 @@ ret.PartsToRotate =
 	["Receptor"] = true,
 	["Flash"] = true,
 	["Glow"] = true,
+	["Spark"] = false,
 	["Tap Note"] = true,
 	["Tap Fake"] = true,
 	["Tap Lift"] = true,
@@ -121,6 +157,9 @@ ret.Rotate =
 	Right = -90,
 	UpLeft = 135,
 	UpRight = 225,
+	DownLeft = 45,
+	DownRight = -45,
+	Center = 0,
 };
 
 -- Parts that should be Redirected to _Blank.png
